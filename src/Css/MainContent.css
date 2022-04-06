@@ -1,0 +1,19 @@
+.mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-height: 76vh;
+}
+
+.mainContainer>img{
+    width: 20%;
+    height: 20%;
+    margin: auto;
+}
+
+@media (max-width:600px) {
+    .mainContainer>img{
+        width: 50%;
+        height: 50%;
+    }
+}
