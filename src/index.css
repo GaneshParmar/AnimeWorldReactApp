@@ -9,5 +9,21 @@ footer{
   text-align: center;
   background-color: black;
   color: white;
-  padding: 0.4em 0
+  padding: 0.4em 0;
+  position:relative;
+}
+
+.loaderWrap{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loaderWrap>p{
+  color: gray;
+  text-align: center;
 }

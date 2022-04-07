@@ -1,0 +1,91 @@
+.animeWrap{
+    height: fit-content;
+    min-height: 75vh;
+    width: 95%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1em;
+    display: flex;
+}
+
+.animeWrap>.animeImg{
+    width: 80%;
+    max-width: 400px;
+}
+
+.animeWrap>.animeImg>img{
+    width: 100%;
+}
+
+.animeWrap>.animeInfo{
+    margin: 0 auto;
+}
+
+.animeWrap>.animeInfo>.animeBasicInfo{
+    border-bottom: 1px solid gray;
+}
+
+.animeInfo>.animeBasicInfo{
+    width: 100%;
+    padding: 1em;
+}
+
+.animeInfo>.animeBasicInfo>h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.3em;
+}
+
+.animeInfo>.animeBasicInfo>p{
+    color: #333;
+}
+
+.teamInfo{
+    width: 100%;
+    line-height: 2em;
+    border-bottom: 1px solid gray;
+    padding: 1em;
+}
+
+.teamInfo>div>strong ,.teamInfo>p>i{
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-left: 10px;
+}
+
+.teamInfo>p ,.teamInfo>div{
+    color: gray;
+}
+
+.pictures{
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+}
+
+.pictures>h3{
+    font-size: 1.4em;
+    padding: 0.3em 0;
+}
+
+.pictures>img{
+    width: 100%;
+}
+
+@media (min-width :900px){
+    .anime{
+        display: flex;
+        font-size: 20px;
+    }
+    .pictures>img{
+        width: 80%;
+    }
+}
+    
+
+@media (max-width:600px){
+    .animeWrap{
+        flex-direction: column;
+        align-items: center;
+    }
+}

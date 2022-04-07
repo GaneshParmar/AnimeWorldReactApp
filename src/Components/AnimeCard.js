@@ -6,6 +6,8 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import '../Css/AnimeCard.css';
+import { Link } from 'react-router-dom';
+
 
 export default function AnimeCard(props) {
   return (
@@ -27,7 +29,11 @@ export default function AnimeCard(props) {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">More Detail</Button>
+      <Link to={"/animeinfo?animeid="+props.animeid}>
+        <Button size="small">
+          More Detail
+        </Button>
+      </Link>  
       </CardActions>
     </Card>
   );
