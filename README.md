@@ -3,7 +3,7 @@
 <img src="./Screenshot (23).png" alt="home"/>
 
 <h3>Click on more detail button to get in brief info</h3>
-<img src="./Screenshot 2022-04-07 122654" alt="home"/>
+<img src="./Screenshot 2022-04-07 122654.png" alt="home"/>
 
 <h3>The in brief info about particular selected anime will shown.</h3>
 <img src="./Screenshot (24).png" alt="home"/>
