@@ -1,3 +1,6 @@
+# Getting Started with Anime World
+<h3>This is the home page with all anime list.</h3>
+<img src="./" alt="home"/>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
